@@ -1,0 +1,38 @@
+{
+  "name": "@standardlabs/javascript-code-action",
+  "version": "0.0.0-rc0",
+  "main": "lib/index.js",
+  "author": "Josh Gummersall",
+  "license": "MIT",
+  "dependencies": {
+    "vm2": "^3.9.3"
+  },
+  "peerDependencies": {
+    "adaptive-expressions": "~4.14.1",
+    "botbuilder-core": "~4.14.1",
+    "botbuilder-dialogs": "~4.14.1",
+    "botbuilder-dialogs-adaptive": "~4.14.1-preview",
+    "botbuilder-dialogs-adaptive-runtime": "~4.14.1-preview",
+    "botbuilder-dialogs-adaptive-runtime-core": "~4.14.1-preview",
+    "botbuilder-dialogs-declarative": "~4.14.1-preview"
+  },
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.1",
+    "adaptive-expressions": "~4.14.1",
+    "botbuilder-core": "~4.14.1",
+    "botbuilder-dialogs": "~4.14.1",
+    "botbuilder-dialogs-adaptive": "~4.14.1-preview",
+    "botbuilder-dialogs-adaptive-runtime": "~4.14.1-preview",
+    "botbuilder-dialogs-adaptive-runtime-core": "~4.14.1-preview",
+    "botbuilder-dialogs-declarative": "~4.14.1-preview",
+    "typescript": "^4.3.5"
+  },
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "files": [
+    "exported",
+    "lib",
+    "src"
+  ]
+}
