@@ -44,6 +44,7 @@ export class JavaScriptCodeAction extends CodeAction {
 
       const vm = new NodeVM({
         sandbox: { state: dc.state },
+        wrapper: 'none',
       });
 
       const result = vm.run(script);
