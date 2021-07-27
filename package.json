@@ -1,6 +1,6 @@
 {
   "name": "@standardlabs/javascript-code-action",
-  "version": "0.0.0-rc0",
+  "version": "0.0.0-rc1",
   "main": "lib/index.js",
   "author": "Josh Gummersall",
   "license": "MIT",

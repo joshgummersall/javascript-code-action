@@ -1,6 +1,6 @@
 import assert from "assert";
 import { Converter, ConverterFactory } from "botbuilder-dialogs";
-import { VM } from "vm2";
+import { NodeVM } from "vm2";
 
 import {
   CodeAction,
@@ -42,7 +42,7 @@ export class JavaScriptCodeAction extends CodeAction {
       const script = this.script?.getValue(dc.state);
       assert(script, "`script` must be defined");
 
-      const vm = new VM({
+      const vm = new NodeVM({
         sandbox: { state: dc.state },
       });
 
